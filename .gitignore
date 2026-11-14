@@ -1,0 +1,45 @@
+# ---- Keil MDK build output ----
+MDK-ARM/DDS_F103/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvopt
+MDK-ARM/*.wsuo
+MDK-ARM/*.saved_uv4
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.elf
+*.map
+*.lnp
+*.dep
+*.lst
+*.sct
+*.htm
+*.dbgconf
+*.0000
+*.ibm
+*.bak
+
+# ---- IDE / OS ----
+.vs/
+.vscode/
+.idea/
+*.sqlite
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- local-only material (never published) ----
+/docs/立创开源硬件平台发布文案.md
+report_text_check.txt
+*_check_*.png
+report_page*.png
+tools/
+LiangHaoCai-*/
+*.uvguix.*
+*.pptx
+*.ppt
+*_结题报告.pdf
