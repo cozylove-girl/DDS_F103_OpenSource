@@ -27,7 +27,9 @@
 
 ### 硬件框图
 
-![硬件框图，标注 DDS 激励、REF 与 DUT 检波及 PA5 外部输入](docs/images/hardware_block_diagram.png)
+![硬件模块与信号流向示意图](docs/images/hardware_block_diagram.png)
+
+*图中的 LCD 波形与读数（含 61.1 MHz）仅作示意。固件实际扫频范围为 100 Hz 至 10 MHz，ADC 引脚以[固件与接线指南](docs/STM32_DDS_Project_Guide.md)为准。样机的 OPA690 用于交流放大和输出驱动，输出端串联 22 Ω 隔离电阻。*
 
 ### 软件架构
 
